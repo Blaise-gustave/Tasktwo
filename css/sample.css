@@ -1,0 +1,58 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+  padding-top: 100px;
+}
+
+/* From here */
+header {
+  height: 62px;
+  font-size: 25px;
+  background-color: black;
+  padding-top: 10px;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+	float: right;
+}
+
+header ul a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+header li {
+  list-style: none;
+}
+
+.function {
+  padding-top: 20px;
+  background-color: darkgray;
+}
+
+.function-images {
+  height: 300px;
+  width: 100%;
+}
+
+.function-image {
+  float: right;
+  margin-right: 140px;
+}
